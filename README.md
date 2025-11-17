@@ -53,7 +53,7 @@ https://03aar.github.io/arena/
 
 ## Early Access Integration
 
-Both CTA buttons ("Join Early Access" and "Apply for Early Access") link to:
+Both CTA buttons ("Get Started" and "Apply for Early Access") link to:
 ```
 https://tinyurl.com/ARENA-Early-Access
 ```
@@ -94,6 +94,5 @@ Then visit `http://localhost:8000`
 ## Company
 
 **LuminaFi Technologies**
-United Arab Emirates
 
 _"Designed with intention."_
