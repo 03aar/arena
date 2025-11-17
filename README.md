@@ -4,6 +4,29 @@
 
 Ultra-minimal, Apple-inspired landing page for Arena early access.
 
+## 🌐 Live Preview
+
+**HTML Preview (Instant Access):**
+```
+https://htmlpreview.github.io/?https://github.com/03aar/arena/blob/claude/arena-landing-page-01AYHNtQFBJnoYHKb6njemSA/index.html
+```
+
+**GitHub Pages (Recommended):**
+After merging to main branch and enabling GitHub Pages:
+```
+https://03aar.github.io/arena/
+```
+
+### Setting Up GitHub Pages
+
+1. Merge this branch to main (or your default branch)
+2. Go to repository **Settings** → **Pages**
+3. Under "Source", select: **Deploy from a branch**
+4. Choose branch: **main** (or your default) and folder: **/ (root)**
+5. Click **Save**
+6. Wait 1-2 minutes for deployment
+7. Your site will be live at: `https://03aar.github.io/arena/`
+
 ## Design Philosophy
 
 - **Ultra-minimal**: Clean, intentional design with plenty of white space
@@ -24,8 +47,18 @@ Ultra-minimal, Apple-inspired landing page for Arena early access.
 - Smooth scroll animations
 - Subtle hover interactions
 - Atmospheric gradient effects
-- Apple-style button interactions
+- Apple-style button interactions with ripple effect
+- Direct link to early access form via TinyURL
 - Optimized performance
+
+## Early Access Integration
+
+Both CTA buttons ("Join Early Access" and "Apply for Early Access") link to:
+```
+https://tinyurl.com/ARENA-Early-Access
+```
+
+Users will be redirected to your early access form when they click the buttons.
 
 ## Structure
 

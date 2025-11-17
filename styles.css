@@ -74,6 +74,7 @@ body {
 }
 
 .cta-primary {
+    display: inline-block;
     font-size: 1.125rem;
     font-weight: 500;
     color: var(--pure-white);
@@ -84,6 +85,8 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 20px rgba(39, 124, 255, 0.2);
+    text-decoration: none;
+    text-align: center;
 }
 
 .cta-primary:hover {

@@ -103,11 +103,6 @@ function initCTAInteractions() {
         button.addEventListener('click', (e) => {
             // Add ripple effect
             createRipple(e, button);
-
-            // Placeholder action - replace with actual early access form
-            setTimeout(() => {
-                showEarlyAccessModal();
-            }, 300);
         });
     });
 }
@@ -137,21 +132,6 @@ function createRipple(event, button) {
     button.appendChild(ripple);
 
     setTimeout(() => ripple.remove(), 600);
-}
-
-/**
- * Show early access modal (placeholder)
- * Replace this with actual form/integration
- */
-function showEarlyAccessModal() {
-    // Placeholder alert - replace with actual modal/form
-    alert('Early Access Coming Soon!\n\nWe\'re preparing something special. Stay tuned.');
-
-    // TODO: Implement actual early access form
-    // Could integrate with services like:
-    // - Typeform
-    // - Google Forms
-    // - Custom backend
 }
 
 /**
