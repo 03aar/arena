@@ -4,28 +4,41 @@
 
 Ultra-minimal, Apple-inspired landing page for Arena early access.
 
-## 🌐 Live Preview
+## 🚀 Deployment
 
-**HTML Preview (Instant Access):**
+### Vercel (Recommended - Production Ready)
+
+**Fastest & easiest deployment with custom domain support:**
+
+1. Go to [vercel.com](https://vercel.com) and login with GitHub
+2. Click "Add New..." → "Project"
+3. Import your `03aar/arena` repository
+4. Click "Deploy"
+5. Done! Your site is live in ~30 seconds
+
+**Benefits:**
+- ✅ Free HTTPS/SSL
+- ✅ Global CDN (ultra-fast worldwide)
+- ✅ Auto-deploy on git push
+- ✅ Custom domain support
+- ✅ Zero configuration
+
+📖 **Detailed guide:** See [DEPLOYMENT.md](./DEPLOYMENT.md) for full instructions
+
+---
+
+### Alternative Hosting Options
+
+**HTML Preview (Instant Access - No Setup):**
 ```
 https://htmlpreview.github.io/?https://github.com/03aar/arena/blob/claude/arena-landing-page-01AYHNtQFBJnoYHKb6njemSA/index.html
 ```
 
-**GitHub Pages (Recommended):**
-After merging to main branch and enabling GitHub Pages:
-```
-https://03aar.github.io/arena/
-```
-
-### Setting Up GitHub Pages
-
-1. Merge this branch to main (or your default branch)
+**GitHub Pages:**
+1. Merge to main branch
 2. Go to repository **Settings** → **Pages**
-3. Under "Source", select: **Deploy from a branch**
-4. Choose branch: **main** (or your default) and folder: **/ (root)**
-5. Click **Save**
-6. Wait 1-2 minutes for deployment
-7. Your site will be live at: `https://03aar.github.io/arena/`
+3. Select branch: **main** and folder: **/ (root)**
+4. Your site will be at: `https://03aar.github.io/arena/`
 
 ## Design Philosophy
 
@@ -64,10 +77,12 @@ Users will be redirected to your early access form when they click the buttons.
 
 ```
 /
-├── index.html      # Main landing page
-├── styles.css      # All styling (brand colors, layout, animations)
-├── script.js       # Interactions and subtle animations
-└── README.md       # Documentation
+├── index.html        # Main landing page
+├── styles.css        # All styling (brand colors, layout, animations)
+├── script.js         # Interactions and subtle animations
+├── vercel.json       # Vercel deployment configuration
+├── README.md         # Documentation
+└── DEPLOYMENT.md     # Detailed deployment guide
 ```
 
 ## Local Development
